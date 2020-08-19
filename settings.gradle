@@ -1,0 +1,5 @@
+include ':app', 'lib-analytics'
+
+project(':lib-analytics').projectDir = new File(settingsDir, "../lib-analytics-android/analytics-android")
+
+rootProject.name='My Application'
